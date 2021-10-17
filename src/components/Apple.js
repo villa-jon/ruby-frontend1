@@ -53,10 +53,10 @@ function Apple({ id, addArticle }) {
 				value={body}
 				onChange={(w) => setBody(w.target.value)}
 			/>
+			<Button variant = "secondary" type="submit">Sendus To-Serveus</Button>
 			</form>	
 			</div>
 			<br/>
-			<Button variant = "secondary" type="submit">Sendus To-Serveus</Button>
 		</div>
 
 	)
